@@ -10,17 +10,15 @@ import React from 'react';
 import Helmet from 'react-helmet';
 import styled from 'styled-components';
 
-import Header from 'components/Header';
-import Footer from 'components/Footer';
+import AppHeader from 'components/AppHeader';
+import AppFooter from 'components/AppFooter';
 import withProgressBar from 'components/ProgressBar';
 
-const AppWrapper = styled.div`
-  max-width: calc(768px + 16px * 2);
-  margin: 0 auto;
-  display: flex;
-  min-height: 100%;
-  padding: 0 16px;
-  flex-direction: column;
+const AppWrapper = styled.body`
+    font-family: 'Roboto', sans-serif;
+    height: 100%;
+    width: 100%;
+    line-height:1;
 `;
 
 export function App(props) {
@@ -33,9 +31,9 @@ export function App(props) {
           { name: 'description', content: 'A React.js Boilerplate application' },
         ]}
       />
-      <Header />
+    <AppHeader />
       {React.Children.toArray(props.children)}
-      <Footer />
+      <AppFooter />
     </AppWrapper>
   );
 }
