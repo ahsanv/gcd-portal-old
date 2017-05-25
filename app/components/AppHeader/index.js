@@ -18,7 +18,7 @@ class Header extends React.Component { // eslint-disable-line react/prefer-state
       <HeaderClass>
         <WrapperClass>
           <LogoClass>
-            <Img src={Logo} alt="react-boilerplate - Logo" />
+            <Img src={Logo} alt="GlobalCoinDex" />
           </LogoClass>
 
           <NavBar>
