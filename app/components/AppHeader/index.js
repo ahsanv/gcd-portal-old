@@ -29,32 +29,32 @@ class Header extends React.Component { // eslint-disable-line react/prefer-state
                 </HeaderLink>
               </ListItem>
               <ListItem>
-                <HeaderLink to="/features">
+                <HeaderLink to="/about">
                     <FormattedMessage {...messages.about} />
                 </HeaderLink>
               </ListItem>
               <ListItem>
-                <HeaderLink to="/">
+                <HeaderLink to="/features">
                     <FormattedMessage {...messages.features} />
                 </HeaderLink>
               </ListItem>
               <ListItem>
-                <HeaderLink to="/">
+                <HeaderLink to="/security">
                     <FormattedMessage {...messages.security} />
                 </HeaderLink>
               </ListItem>
               <ListItem>
-                <HeaderLink to="/">
+                <HeaderLink to="/marketstats">
                     <FormattedMessage {...messages.marketstats} />
                 </HeaderLink>
               </ListItem>
               <ListItem>
-                <HeaderLink to="/">
+                <HeaderLink to="/chnagelog">
                     <FormattedMessage {...messages.chnagelog} />
                 </HeaderLink>
               </ListItem>
               <ListItem>
-                <HeaderLink to="/">
+                <HeaderLink to="/contact">
                     <FormattedMessage {...messages.contact} />
                 </HeaderLink>
               </ListItem>

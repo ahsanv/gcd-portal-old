@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import btn from './submit.png';
 
 module.exports.FooterClass = styled.div `
 padding: 75px 0 65px 0;
@@ -45,7 +46,19 @@ module.exports.FootSocialLiA = styled.a `
     font-size: 14px;
     padding: 10px 11px;
 `;
+
+module.exports.FooterBtn = styled.button `
+        background: url(${btn}) repeat scroll 0 0;
+        border: medium none;
+        border-radius: 0;
+        cursor: pointer;
+        font-size: 0;
+        height: 41px;
+        margin: 0 0 0 -4px;
+        width: 39px;
+
+`;
 //
 // // module.exports.FooterClass
 //
-// export default { FooterClass, FooterH1, Foot1, FootLogo, FootSocial, FootSocialLi, FootSocialLiA };
+//export default { FooterClass, FooterH1, Foot1, FootLogo, FootSocial, FootSocialLi, FootSocialLiA };
