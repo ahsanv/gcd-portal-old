@@ -968,4 +968,13 @@ injectGlobal `
       background: #f9f9f9 none repeat scroll 0 0;
   }
 
+  .nav-bar-items{
+    padding: 10px 0
+  }
+
+.custom-navbar {
+  border-radius: 0 !important;
+}
+
+
 `;

@@ -16,5 +16,6 @@ export default styled(Link)
   &:hover {
     color: #fff;
     border-bottom: 2px solid #158dd3;
+    text-decoration:none;
   }
 `;
